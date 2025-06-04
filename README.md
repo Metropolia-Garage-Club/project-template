@@ -8,7 +8,7 @@ In this repository, you can find the standard project folder structure, project 
 
 ### Required work for course credits
 
-If you are doing project work for AIoT / Robo -garages as part of a course, there are few requirements that ==**you must fulfill:**==
+If you are doing project work for AIoT / Robo -garages as part of a course, there are few requirements that **you must fulfill:**
 
 #### Documentation requirements
 
