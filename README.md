@@ -5,7 +5,29 @@ This is a repository created to serve as a standard template for all official Me
 In this repository, you can find the standard project folder structure, project documentation template and guide as well as introduction to how to use git and github.
 
 **Please take the time to read this MD before you start your project!** 
-There are also more topic specific MDs hidden around the folders with more information on how we wish you to structure your project.
+
+### Required work for course credits
+
+If you are doing project work for AIoT / Robo -garages as part of a course, there are few requirements that ==**you must fulfill:**==
+
+#### Documentation requirements
+
+We expect you to not only properly document your project, but also to write usage instructions. This README file is a great way to easily format and visualize usage and deployment instructions for your project on the repository front page. 
+If you are new to Markdown, refer to this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet).
+
+For the actual project documentation, there is a formatted template in the Docs folder you can use if you want, but you don't need to. The important thing is that the format and language of the documentation follows the Metropolia Thesis guidelines. 
+
+*If you are doing your Innovation project report / Thesis, that will act as your project report for the garage! In that case, please upload it with the project files or link to it in theseus.*
+
+The report should include atleast the following:
+
+- What was the project about?
+- What are the things you did?
+- What were the problems you faced and how did you solve them?
+- What work remains to be done or what issues need to be fixed?
+
+You are the expert of your own project and it is critical that the work and innovation you have spent your time on is easily available to us in the future! 
+
 
 ### How to proceed
 If you don't have Git installed yet, refer to [setting up Git](https://docs.github.com/en/get-started/git-basics/set-up-git).
@@ -19,8 +41,8 @@ This template is made with forking and pull requests in mind to systemize workfl
 
 ### Project structure
 
-In this project template, you can find a readymade folder structure. Your project may not need some of the folders, in which case its safe to delete them. 
-**Otherwise, please use the provided structure.**
+In this project template, you can find a readymade folder structure. Your project may not need some of the folders, in which case please delete them. 
+**Otherwise, use the provided structure.**
 
 #### Overview of the folders
 
@@ -48,12 +70,93 @@ In this project template, you can find a readymade folder structure. Your projec
 ##### Software
 *  Your actual code, models, libraries etc.
 
-#### Documentation requirements
+#### Example project structure
 
-We expect you to not only properly document your project, but also to write usage instructions. This README is a great way to easily format and visualize usage and instructions for your project on the repository front page. 
-If you are new to Markdown, refer to this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet).
+1.  Project-Name/   
 
-For the actual project documentation, there is a formatted template in the Docs folder you can use if you want, but you don't need to. The important thing is that the format and language of the documentation follows the Metropolia Thesis guidelines. However, we are not strict about it.
+ 2. │   
+
+ 3. ├──  docs/            # Documentation and reports   
+
+ 4. │   ├── project-report.docx   # Main project report   
+
+ 5. │   ├── requirements.txt  	# Project requirements & specs     
+
+ 9. │      
+
+11. ├──  software/    # AI, IoT, and application code
+24. │   ├──  deployment/ # Deployment files, Docker, cloud configurations   
+
+25. │   │   ├── docker/   
+
+26. │   │   ├── k8s/   
+
+27. │   │   ├── cloud-setup/       
+
+14. │   ├── models/      # AI/ML models and training scripts   
+
+15. │   ├── code/     # Project source code, helper scripts, automation   
+
+16. │   ├── tests/       # Unit tests, integration tests   
+
+17. │   ├── README.md    # Explanation of software structure   
+
+18. │   │   
+
+19. │   ├──  firmware/  # Microcontroller firmware (if any)   
+
+20. │   │   ├── esp32/   
+
+21. │   │   ├── jetson/   
+
+22. │   │   ├── raspberry-pi/   
+
+28. │   
+
+29. ├──  hardware/      # Any hardware-related files   
+
+30. │   ├── schematics/      # Circuit diagrams, PCB designs   
+
+31. │   ├── parts-list.xlsx    # List of components and BOM   
+
+32. │   ├── assembly-guide.md  # Instructions for assembling hardware   
+
+33. │   
+
+34. ├──  media/        # Images, videos, marketing materials   
+
+35. │   ├──  photos/         # Pictures of the project   
+
+36. │   ├──  videos/         # Any demo or tutorial videos   
+
+37. │   ├──  graphics/       # Logos, banners, presentation materials   
+
+38. │   
+
+39. ├──  presentations/       # Slides, posters, marketing materials   
+
+40. │   ├── presentation.pptx   
+
+41. │   ├── poster.pdf   
+
+42. │   
+
+43. ├──  references/          # Papers, useful links, background materials   
+
+44. │   ├── papers/   
+
+45. │   ├── links.md   
+
+46. │   
+
+47. ├── .gitignore              # Ignore unnecessary files for version control   
+
+48. ├── README.md               # General project overview   
+
+49. └── LICENSE                 # Open-source license, if applicable  
+
+50.   
+
 
 ### Using Git
 
