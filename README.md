@@ -26,6 +26,8 @@ The report should include atleast the following:
 - What were the problems you faced and how did you solve them?
 - What work remains to be done or what issues need to be fixed?
 
+And finally, list the tools/software you used for the project and provide brief description of what each of them are for.
+
 You are the expert of your own project and it is critical that the work and innovation you have spent your time on is easily available to us in the future! 
 
 
