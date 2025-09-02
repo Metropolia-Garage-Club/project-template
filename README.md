@@ -23,10 +23,14 @@ The report should include atleast the following:
 
 - What was the project about?
 - What are the things you did?
+- What choices did you make with your implementation and why? (Eg. choices between different software / libraries)
 - What were the problems you faced and how did you solve them?
 - What work remains to be done or what issues need to be fixed?
 
-And finally, list the tools/software you used for the project and provide brief description of what each of them are for.
+
+And finally, list the tools/software you used for the project and provide brief description of what each of them are for. 
+
+In general, the project report should be technical in nature. Focus on writing about the technical implementations. This will be important for the garage as well as the companies, which might want to implement your project into their systems. Describe all the systems and sub-systems of your work in clear manner. Creating a program flowchart is also very appreciated!
 
 You are the expert of your own project and it is critical that the work and innovation you have spent your time on is easily available to us in the future! 
 
