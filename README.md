@@ -6,13 +6,15 @@
 This is a repository created to serve as a standard template for all official Metropolia Garage projects. 
 In this repository, you can find the standard project folder structure, project documentation template and guide as well as introduction to how to use git and github.
 
-## REPLACE THIS MD WITH DEPLOYMENT INSTRUCTIONS!
-Your deployment instructions should include image of a program flowchart!
-Your deployment instructions must be comprehensive enough for someone unfamiliar with your work to get it running.
+### REPLACE THIS MD WITH DEPLOYMENT INSTRUCTIONS!
+
+Your deployment instructions must include image of a program flowchart!
+
+Your deployment instructions must be comprehensive enough for someone unfamiliar with your work to get it running!
 
 ### Required work for course credits
 
-If you are doing project work for AIoT / Robo -garages as part of a course, there are few requirements that **you must fulfill:**
+If you are doing project work for AIoT / Robo -garages as part of a course, there are few requirements that **you must fulfill**:
 
 #### Documentation requirements
 
@@ -169,9 +171,8 @@ In this project template, you can find a readymade folder structure. Your projec
 
 #### Getting started
 
-**Fork this repository**: Click the "Fork" button in the top-right corner to create your own copy.
-Then set it up locally, using the CMD line:
->git clone [fork-URL]
+**Clone the repository**: Set it up locally using the command line:
+>git clone [repository-URL]
 
 (Downloads a copy of your fork to your local machine)
 
@@ -179,51 +180,54 @@ Then set it up locally, using the CMD line:
 
 (Moves into the project directory)
 
->git remote add upstream [project-repository-URL] 
+**Create your working branch**:
+>git checkout -b [your-name]/dev
 
-(Links Git to the original repository (This one))
+(Creates and switches to your personal development branch. Use a consistent naming convention, e.g., name/dev)
+
+>git push -u origin [your-name]/dev
+
+(Pushes your branch to the remote repository and sets it as the default upstream for future pushes)
 
 #### Development Workflow
 
-**Create a feature branch**:
+**Create feature branches** off your development branch for specific tasks:
+>git checkout -b [your-name]/feature-name
 
->git checkout -b [new-branch-name]
-
-(Creates and switches to a new branch)
+(Creates a new branch for a specific feature, branching from your current location)
 
 **Make your changes** and commit regularly with clear messages:
->git add . 
+>git add .
 
 (Stages all modified files for commit)
 
 >git commit -m "Implement feature X"
 
-(Records changes with a message)
+(Records changes with a descriptive message)
 
-**Merge to your fork's main branch** when you have a stable checkpoint you want to save
+**Merge completed features** back to your development branch:
+>git checkout [your-name]/dev
 
->git checkout main                   
+(Switches back to your development branch)
 
-(Switch back to your main branch)
+>git merge [your-name]/feature-name
 
->git merge [new-branch-name]
+(Integrate your completed feature)
 
-(Integrate your feature into main)
+>git push origin [your-name]/dev
 
->git push origin main                
+(Push the updated development branch to the remote)
 
-(Push the updated main to your forked repository)
+Generally, keep your personal development branch as a functional checkpoint and use separate feature branches for work-in-progress. This way you always have a stable version to fall back to.
 
-Generally, you want to keep your local main branch as a functional backup and push any feature you are actively working on into its own separate branch. The main branch will be the pull point for the real project repository.
+#### Submitting your work
+When your work is ready for final submission, create a pull request to merge into main:
 
-#### Submitting your work to us
+Push your latest changes to your development branch
+Go to the repository on GitHub
+Click "Pull requests" > "New pull request"
+Set base to main and compare to [your-name]/dev
+Click "Create pull request"
+Add a title and description explaining your changes
 
-**Create a pull request**:
-* Go to this repository
-* Click "Pull requests" > "New pull request"
-* Click "compare across forks"
-* Select your fork's main branch as the head repository
-* Click "Create pull request"
-* Add a title and description explaining your changes
-
-We will accept your changes and they will be copied to this repository. 
+We will review your pull request and merge it into the main branch when accepted.
