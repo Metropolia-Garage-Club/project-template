@@ -1,10 +1,14 @@
 # Metropolia Garage Project Template
 ## Repository for materials related to Metropolia Garage projects
 
+## Please take the time to read this MD carefully! It contains all instructions on how to provide your project to us!
+
 This is a repository created to serve as a standard template for all official Metropolia Garage projects. 
 In this repository, you can find the standard project folder structure, project documentation template and guide as well as introduction to how to use git and github.
 
-**Please take the time to read this MD before you start your project!** 
+## REPLACE THIS MD WITH DEPLOYMENT INSTRUCTIONS!
+Your deployment instructions should include image of a program flowchart!
+Your deployment instructions must be comprehensive enough for someone unfamiliar with your work to get it running.
 
 ### Required work for course credits
 
@@ -12,12 +16,12 @@ If you are doing project work for AIoT / Robo -garages as part of a course, ther
 
 #### Documentation requirements
 
-We expect you to not only properly document your project, but also to write usage instructions. This README file is a great way to easily format and visualize usage and deployment instructions for your project on the repository front page. 
+We expect you to not only properly document your project, but also to write usage instructions. Replace THIS FILE with the deployment instructions. Markdown is a great way to easily format and visualize usage and deployment instructions for your project on the repository front page. 
 If you are new to Markdown, refer to this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet).
 
-For the actual project documentation, there is a formatted template in the Docs folder you can use if you want, but you don't need to. The important thing is that the format and language of the documentation follows the Metropolia Thesis guidelines. 
+For the actual project documentation, there is a formatted template in the Docs folder you can use if you want, but you don't need to use it. The important thing is that the format and language of the documentation follows the Metropolia Thesis guidelines. 
 
-*If you are doing your Innovation project report / Thesis, that will act as your project report for the garage! In that case, please upload it with the project files or link to it in theseus.*
+*If you are doing your Innovation project report / Thesis, that will act as your project report for the PROJECT! In that case, please upload it with the project files or link to it in theseus OR provide a garage employee with the files on TEAMS!*
 
 The report should include atleast the following:
 
@@ -40,15 +44,12 @@ If you don't have Git installed yet, refer to [setting up Git](https://docs.gith
 
 We highly recommend you to start with the amazing [First Contributions](https://github.com/firstcontributions/first-contributions) guide if you are new to GitHub. 
 
-This template is made with forking and pull requests in mind to systemize workflow and make it easy for Metropolia Staff to access your project later, while allowing you to work as freely as possible.
-
-#### Expected Workflow:
-![Flowchart for project](project_flow.png)
+This template is made with forking and pull requests in mind to systemize workflow and make it easy for Metropolia Staff to access your project later, while allowing you to work as freely as possible
 
 ### Project structure
 
-In this project template, you can find a readymade folder structure. Your project may not need some of the folders, in which case please delete them. 
-**Otherwise, use the provided structure.**
+In this project template, you can find a readymade folder structure. Your project may not need some of the folders. **DELETE THE FOLDERS YOU DON'T NEED!.** 
+**Otherwise, please use the provided structure.**
 
 #### Overview of the folders
 
@@ -56,7 +57,7 @@ In this project template, you can find a readymade folder structure. Your projec
 * Any files or general dependencies that are necessary to get the project running
 
 ##### Docs
-* Project Report, Notes, Guides, you can find the Word Documentation Template here with basic formatting made
+* **Project Report**, Notes, Guides, you can find the Word Documentation Template here with basic structure and formatting. Otherwise, use Metropolia Thesis structure. 
 
 ##### Firmware
 * Files and software, which are necessary to get your hardware running
@@ -68,13 +69,13 @@ In this project template, you can find a readymade folder structure. Your projec
 *  All media material related to the project, sorted
 
 ##### Presentation
-*  Your powerpoint presentations, if you have any
+*  Your power point presentations or posters if you have any
 
 ##### References
-*  Scientific papers, datasheets, web links - Please name them in a clear manner
+*  Scientific papers, datasheets, web links, research material - Please name them in a clear manner
 
 ##### Software
-*  Your actual code, models, libraries etc.
+*  Your actual code, ML models, libraries etc.
 
 #### Example project structure
 
